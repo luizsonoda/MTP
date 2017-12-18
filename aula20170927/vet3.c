@@ -1,7 +1,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 #define N 10
-void main(){
+int main(){
     int vet[N];
     int i, soma=0, mult=1;
     for (i=0; i<N; i++){
