@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
-void main(){
+int main(){
     float x1, x2, y1, y2, distancia;
     printf("entre com x1, y1: ");
     scanf("%f,%f", &x1, &y1);
