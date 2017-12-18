@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<time.h>
 int main(){
     srand(time(0));
     float probuser;
@@ -12,4 +13,3 @@ int main(){
     printf("contagem em 1000: %d\n", cont);
     return EXIT_SUCCESS;
 }
-
