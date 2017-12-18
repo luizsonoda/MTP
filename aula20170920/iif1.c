@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-void main(){
+int main(){
     srand(time(0));
     float probuser;
     int i=0, cont=0;
