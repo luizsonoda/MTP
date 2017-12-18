@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<ctype.h>
 #define N 256
-void main(){
+int main(){
     char str[N]; char msg[2*N];
     int i;
     printf("entre com umas frase :");
