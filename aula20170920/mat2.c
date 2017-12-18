@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
-void main(){
+int main(){
     double a, b, angulo, resultado;
     printf("entre com os lados a, b: ");
     scanf("%f,%f", &a, &b);
