@@ -13,7 +13,7 @@ double complex mostracomplexo(double complex z, char c){
     else
         printf("%lf/ %lf\n", cabs(z), carg(z));
 }
-void main(){
+int main(){
     double complex z1, z2;
     double a, b ;
     printf("entre com o numero complexo z1(real, imaginario):");
