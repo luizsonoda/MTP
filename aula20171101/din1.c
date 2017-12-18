@@ -13,7 +13,7 @@ float desviopadrao(float *numeros, int qnt){
     float m= media(numeros,qnt);
     float dp= 0.0f;
     int i;
-    for(i=0; i<qnt; i++) dp += pow(numeros[1]-m,2);
+    for(i=0; i<qnt; i++) dp += pow(numeros[i]-m,2);
     dp /= qnt;
     return sqrt(dp);
 }
