@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<ctype.h>
 #define n 256
-void main(){
+int main(){
     char frase[n];
     int i=0;
     printf("Digite uma frase:\n");
