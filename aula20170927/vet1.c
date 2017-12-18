@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<time.h>
 #define N 10000
-void main(){
+int main(){
     srand(time(0));
     int vet[N];
     int n, i;
